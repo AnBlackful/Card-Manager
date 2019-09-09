@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Card_Manager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9r-g8-NYC">
+                                <rect key="frame" x="0.0" y="20" width="375" height="2480"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nma-Us-tdg">
+                                        <rect key="frame" x="5" y="15" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="height" multiplier="2:1" id="ZLv-bi-Txo"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9l-5v-krM">
+                                        <rect key="frame" x="5" y="212.5" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ugM-gL-NYh">
+                                        <rect key="frame" x="5" y="410" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XH4-u4-S8m">
+                                        <rect key="frame" x="5" y="607.5" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPk-nC-Ku5">
+                                        <rect key="frame" x="5" y="805" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJc-Wj-shG">
+                                        <rect key="frame" x="5" y="1002.5" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eFm-ay-iQX">
+                                        <rect key="frame" x="5" y="1200" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="poG-z1-NY3">
+                                        <rect key="frame" x="5" y="1397.5" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9RS-3O-Guh">
+                                        <rect key="frame" x="5" y="1595" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="weZ-pd-KuE">
+                                        <rect key="frame" x="5" y="1792.5" width="365" height="182.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="weZ-pd-KuE" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="22U-Gi-m7z"/>
+                                    <constraint firstItem="eFm-ay-iQX" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="3MF-7d-iEG"/>
+                                    <constraint firstItem="sJc-Wj-shG" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="3rf-Ja-4wH"/>
+                                    <constraint firstItem="Nma-Us-tdg" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="5Kf-VL-lXm"/>
+                                    <constraint firstItem="ugM-gL-NYh" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="5OO-uq-Qqi"/>
+                                    <constraint firstItem="poG-z1-NY3" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="6Bu-7n-gPv"/>
+                                    <constraint firstItem="9RS-3O-Guh" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="6zP-sJ-hu2"/>
+                                    <constraint firstAttribute="trailing" secondItem="poG-z1-NY3" secondAttribute="trailing" constant="5" id="7Rn-IQ-VVB"/>
+                                    <constraint firstItem="NPk-nC-Ku5" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="7o1-E5-Ptk"/>
+                                    <constraint firstItem="9RS-3O-Guh" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="AXj-sv-JAw"/>
+                                    <constraint firstAttribute="trailing" secondItem="sJc-Wj-shG" secondAttribute="trailing" constant="5" id="AXp-zK-nrk"/>
+                                    <constraint firstItem="sJc-Wj-shG" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="BnW-o6-qAQ"/>
+                                    <constraint firstItem="A9l-5v-krM" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="DsF-bS-k4b"/>
+                                    <constraint firstAttribute="trailing" secondItem="weZ-pd-KuE" secondAttribute="trailing" constant="5" id="Dyf-qD-Gg7"/>
+                                    <constraint firstItem="ugM-gL-NYh" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="Fn3-G8-3r8"/>
+                                    <constraint firstItem="eFm-ay-iQX" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="G4n-Yc-jr4"/>
+                                    <constraint firstItem="NPk-nC-Ku5" firstAttribute="top" secondItem="XH4-u4-S8m" secondAttribute="bottom" constant="15" id="GIi-m1-nzc"/>
+                                    <constraint firstItem="XH4-u4-S8m" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="H3s-FZ-HCP"/>
+                                    <constraint firstItem="poG-z1-NY3" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="HKf-WC-M9C"/>
+                                    <constraint firstAttribute="bottom" secondItem="weZ-pd-KuE" secondAttribute="bottom" constant="15" id="JnW-Yn-mWm"/>
+                                    <constraint firstItem="9RS-3O-Guh" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="LPn-nL-LAn"/>
+                                    <constraint firstItem="eFm-ay-iQX" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="MKB-1D-qiX"/>
+                                    <constraint firstItem="Nma-Us-tdg" firstAttribute="top" secondItem="V9r-g8-NYC" secondAttribute="top" constant="15" id="MLm-kA-zo3"/>
+                                    <constraint firstItem="A9l-5v-krM" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="NTF-xY-cx5"/>
+                                    <constraint firstItem="NPk-nC-Ku5" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="ODT-Wn-TeG"/>
+                                    <constraint firstItem="A9l-5v-krM" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="OcN-S0-Eb7"/>
+                                    <constraint firstItem="XH4-u4-S8m" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="PMH-oI-NCQ"/>
+                                    <constraint firstItem="poG-z1-NY3" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="R35-5e-nmm"/>
+                                    <constraint firstItem="XH4-u4-S8m" firstAttribute="top" secondItem="ugM-gL-NYh" secondAttribute="bottom" constant="15" id="RHC-es-voF"/>
+                                    <constraint firstItem="XH4-u4-S8m" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="S3B-4b-UoH"/>
+                                    <constraint firstItem="sJc-Wj-shG" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="TKe-7B-uJ4"/>
+                                    <constraint firstItem="sJc-Wj-shG" firstAttribute="top" secondItem="NPk-nC-Ku5" secondAttribute="bottom" constant="15" id="Uo9-yv-vGo"/>
+                                    <constraint firstItem="poG-z1-NY3" firstAttribute="top" secondItem="eFm-ay-iQX" secondAttribute="bottom" constant="15" id="XDA-fO-NHc"/>
+                                    <constraint firstItem="eFm-ay-iQX" firstAttribute="top" secondItem="sJc-Wj-shG" secondAttribute="bottom" constant="15" id="Xwz-at-a3o"/>
+                                    <constraint firstItem="XH4-u4-S8m" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="YyI-6T-ON2"/>
+                                    <constraint firstAttribute="trailing" secondItem="eFm-ay-iQX" secondAttribute="trailing" constant="5" id="Zys-rk-5z3"/>
+                                    <constraint firstItem="weZ-pd-KuE" firstAttribute="top" secondItem="9RS-3O-Guh" secondAttribute="bottom" constant="15" id="aI2-6K-5u0"/>
+                                    <constraint firstItem="poG-z1-NY3" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="asY-M3-mHb"/>
+                                    <constraint firstItem="sJc-Wj-shG" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="bRv-Ze-jeD"/>
+                                    <constraint firstAttribute="trailing" secondItem="NPk-nC-Ku5" secondAttribute="trailing" constant="5" id="cQD-vi-t6h"/>
+                                    <constraint firstItem="A9l-5v-krM" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="dOr-rD-VOZ"/>
+                                    <constraint firstItem="ugM-gL-NYh" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="eyR-lr-Dax"/>
+                                    <constraint firstItem="9RS-3O-Guh" firstAttribute="top" secondItem="poG-z1-NY3" secondAttribute="bottom" constant="15" id="fWG-kO-yqo"/>
+                                    <constraint firstItem="ugM-gL-NYh" firstAttribute="leading" secondItem="V9r-g8-NYC" secondAttribute="leading" constant="5" id="g9R-cB-c7K"/>
+                                    <constraint firstAttribute="trailing" secondItem="XH4-u4-S8m" secondAttribute="trailing" constant="5" id="gFs-Ag-wlI"/>
+                                    <constraint firstItem="weZ-pd-KuE" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="hwM-I8-6wM"/>
+                                    <constraint firstAttribute="trailing" secondItem="ugM-gL-NYh" secondAttribute="trailing" constant="5" id="hzw-dX-fPf"/>
+                                    <constraint firstItem="9RS-3O-Guh" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="iok-fX-tSK"/>
+                                    <constraint firstAttribute="trailing" secondItem="A9l-5v-krM" secondAttribute="trailing" constant="5" id="nUW-Ni-Lej"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nma-Us-tdg" secondAttribute="trailing" constant="5" id="rqr-9d-4V3"/>
+                                    <constraint firstItem="eFm-ay-iQX" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="uGK-n9-Dlo"/>
+                                    <constraint firstItem="NPk-nC-Ku5" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="v6c-I7-wtU"/>
+                                    <constraint firstItem="ugM-gL-NYh" firstAttribute="top" secondItem="A9l-5v-krM" secondAttribute="bottom" constant="15" id="vK9-ZD-xNj"/>
+                                    <constraint firstItem="A9l-5v-krM" firstAttribute="top" secondItem="Nma-Us-tdg" secondAttribute="bottom" constant="15" id="w0z-zn-bpn"/>
+                                    <constraint firstItem="NPk-nC-Ku5" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="wg9-PL-IpP"/>
+                                    <constraint firstAttribute="trailing" secondItem="9RS-3O-Guh" secondAttribute="trailing" constant="5" id="xiE-dl-boH"/>
+                                    <constraint firstItem="weZ-pd-KuE" firstAttribute="height" secondItem="Nma-Us-tdg" secondAttribute="height" id="xjs-Hd-IfX"/>
+                                    <constraint firstItem="weZ-pd-KuE" firstAttribute="width" secondItem="Nma-Us-tdg" secondAttribute="width" id="xqd-bO-Mn8"/>
+                                    <constraint firstItem="Nma-Us-tdg" firstAttribute="centerX" secondItem="V9r-g8-NYC" secondAttribute="centerX" id="yKE-uV-xct"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="V9r-g8-NYC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6dZ-yU-alq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V9r-g8-NYC" secondAttribute="bottom" id="SE5-NF-glB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V9r-g8-NYC" secondAttribute="trailing" id="bOg-c5-QE2"/>
+                            <constraint firstItem="V9r-g8-NYC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="srO-Lx-d3C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="2500"/>
+                    <connections>
+                        <outletCollection property="containerCardViewCollection" destination="Nma-Us-tdg" collectionClass="NSMutableArray" id="GwA-fE-JBK"/>
+                        <outletCollection property="containerCardViewCollection" destination="A9l-5v-krM" collectionClass="NSMutableArray" id="mVS-sh-Bwz"/>
+                        <outletCollection property="containerCardViewCollection" destination="ugM-gL-NYh" collectionClass="NSMutableArray" id="8AC-Gh-eNG"/>
+                        <outletCollection property="containerCardViewCollection" destination="XH4-u4-S8m" collectionClass="NSMutableArray" id="nEl-5w-6rX"/>
+                        <outletCollection property="containerCardViewCollection" destination="NPk-nC-Ku5" collectionClass="NSMutableArray" id="1Se-y1-Sfe"/>
+                        <outletCollection property="containerCardViewCollection" destination="sJc-Wj-shG" collectionClass="NSMutableArray" id="lgD-gf-1Hb"/>
+                        <outletCollection property="containerCardViewCollection" destination="eFm-ay-iQX" collectionClass="NSMutableArray" id="fQs-gi-4VQ"/>
+                        <outletCollection property="containerCardViewCollection" destination="poG-z1-NY3" collectionClass="NSMutableArray" id="Wsb-PU-wbY"/>
+                        <outletCollection property="containerCardViewCollection" destination="9RS-3O-Guh" collectionClass="NSMutableArray" id="PsV-zm-uuG"/>
+                        <outletCollection property="containerCardViewCollection" destination="weZ-pd-KuE" collectionClass="NSMutableArray" id="Qx1-fw-NRC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="26.986506746626688"/>
+        </scene>
+    </scenes>
+</document>
